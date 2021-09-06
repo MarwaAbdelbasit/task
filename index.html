@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Shopping</title>
+  </head>
+  <body>
+    <header class="l-header">
+      <div class="">
+        <a href="#" class="nav_logo">Clothing</a>
+      </div>
+
+      <nav class="nav">
+        <div class="nav_menu" id="nav-menu">
+          <ul class="nav_list">
+            <li class="nav_item">
+              <a href="#home" class="nav_link activeNav">New</a>
+            </li>
+            <li class="nav_item">
+              <a href="#about" class="nav_link">Men</a>
+            </li>
+            <li class="nav_item">
+              <a href="#skills" class="nav_link">Women</a>
+            </li>
+            <li class="nav_item">
+              <a href="#work" class="nav_link">Kids</a>
+            </li>
+            <li class="nav_item">
+              <a href="#contact" class="nav_link">Special offers</a>
+            </li>
+          </ul>
+
+          <div class="buttons">
+            <span class="cart"><i class="fas fa-shopping-cart"></i></span>
+            <button class="login" type="button">Login</button>
+            <button class="signup" type="button">Signup</button>
+          </div>
+        </div>
+      </nav>
+
+      <div class="nav_toggle" id="nav-toggle">
+        <i class="fas fa-bars"></i>
+      </div>
+    </header>
+
+    <main>
+      <section class="section">
+        <div class="order">
+          <h3>Order</h3>
+
+          <div class="orderContent">
+            <div class="saleBage">
+              <p>SALE TIME!</p>
+            </div>
+
+            <div class="item">
+              <div class="itemInfo">
+                <img src="imgs/img1.png" class="itemImg">
+                <div class="itemDesc">
+                  <h5>Product Name</h5>
+                  <h5><span>Color:</span> Red/White</h5>
+                  <h5><span>Size:</span> L</h5>
+                </div>
+              </div>
+              <h5 class="price">$45.00</h5>
+              <h5 class="discount">$45.00</h5>
+              <div class="quantity">
+                <label>Quantity:</label>
+                <input type="number" value="1">
+                <i class="far fa-clock"></i>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="itemInfo">
+                <img src="imgs/img2.jpg" class="itemImg">
+                <div class="itemDesc">
+                  <h5>Product Name</h5>
+                  <h5><span>Color:</span> Red/White</h5>
+                  <h5><span>Size:</span> L</h5>
+                </div>
+              </div>
+              <h5 class="price">$22.00</h5>
+              <h5 class="discount">$26.00</h5>
+              <div class="quantity">
+                <label>Quantity:</label>
+                <input type="number" value="1">
+                <i class="far fa-clock"></i>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="itemInfo">
+                <img src="imgs/img3.jpg" class="itemImg">
+                <div class="itemDesc">
+                  <h5>Product Name</h5>
+                  <h5><span>Color:</span> Red/White</h5>
+                  <h5><span>Size:</span> L</h5>
+                </div>
+              </div>
+              <h5 class="price"></h5>
+              <h5 class="finalPrice">$55.00</h5>
+              <div class="quantity">
+                <label>Quantity:</label>
+                <input type="number" value="1">
+                <i class="far fa-clock"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="payment">
+          <h3 class="title">Payment Summary</h3>
+
+          <div class="paymentContent">
+            <div class="paymentInfo">
+              <button type="button" class="unregistered">UNREGEISTERED ACCOUNT</button>
+              <div class="code">
+                <div class="codeDet">
+                  <p class="label">Transition Code</p>
+                  <p class="value">XASDA5653</p>
+                </div>
+                <div class="enterCoupon">
+                  <input type="text" placeholder="COUPON CODE">
+                  <button class="signup" type="button">Apply</button>
+                </div>
+              </div>
+
+              <hr>
+
+              <div class="summary">
+                <div class="codeDet">
+                  <p class="label">Order Summary</p>
+                  <p class="value">$122</p>
+                </div>
+
+                <div class="codeDet">
+                  <p class="label">Additional Service Summary</p>
+                  <p class="value">$10</p>
+                </div>
+
+                <div class="codeDet">
+                  <p class="label">Total Ammount</p>
+                  <p class="value">$132</p>
+                </div>
+              </div>
+            </div>
+
+            <hr>
+
+            <button type="button" class="unregistered">SALE EXPIRING IN: <span class="price">21 HOURS, 30 MINUTES</span></button>
+          </div>
+        </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="order order2">
+          <h3>Order</h3>
+
+          <div class="orderContent2">
+            <div class="service" id='service'>
+              <input id="check" checked='checked' type="radio" name="radio">
+              <img src="imgs/dpd.png" alt="">
+              <div class="desc">
+                <h5>DPD Deliveries</h5>
+                <p>Expected Delivery: Friday, 28</p>
+              </div>
+              <h5>$5.25</h5>
+            </div>
+
+            <div class="service" id='service'>
+              <input id="check" checked='checked' type="radio" name="radio">
+              <img src="imgs/Fedex.png" alt="">
+              <div class="desc">
+                <h5>FedEx fast Delivery</h5>
+                <p>Expected Delivery: Friday, 28</p>
+              </div>
+              <h5>$5.25</h5>
+            </div>
+
+            <div class="service" id='service'>
+              <input id="check" checked='checked' type="radio" name="radio">
+              <img src="imgs/ups.png" alt="">
+              <div class="desc">
+                <h5>UPS Deliveries</h5>
+                <p>Expected Delivery: Friday, 28</p>
+              </div>
+              <h5>$5.25</h5>
+            </div>
+
+            <div class="service" id='service'>
+              <input id="check" checked='checked' type="radio" name="radio">
+              <img src="imgs/box.png" alt="">
+              <div class="desc">
+                <h5>Collect in person</h5>
+                <p>Expected Delivery: Friday, 28</p>
+              </div>
+              <h5>$5.25</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="payment">
+          <h3>Payment Summary</h3>
+
+          <div class="addService">
+            <div class="add">
+              <div class="desc">
+                <h5>Care + Package</h5>
+                <p>One year of additional care.</p>
+              </div>
+              <h5>$6.00</h5>
+              <label class="switch">
+                <input type="checkbox">
+                  <span class="slider"></span>
+              </label>
+            </div>
+
+            <div class="add">
+              <div class="desc">
+                <h5>Enviromental Friendly</h5>
+                <p>Add some tip for earth care.</p>
+              </div>
+              <h5>$2.00</h5>
+              <label class="switch">
+                <input type="checkbox">
+                  <span class="slider"></span>
+              </label>
+            </div>
+
+            <div class="add">
+              <div class="desc">
+                <h5>Golden Guard</h5>
+                <p>30 days more for return.</p>
+              </div>
+              <h5>$5.00</h5>
+              <label class="switch">
+                <input type="checkbox">
+                  <span class="slider"></span>
+              </label>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
